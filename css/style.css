@@ -1,13 +1,14 @@
 body{
     background-color: aqua;
+    font-family: 'Aclonica';font-size: 22px;
 
 }
 .heading{
     text-align: center;
     font-size:40px;
+    
 }
 .container{
     text-align: center;
     font-size: 40px;
-
 }
