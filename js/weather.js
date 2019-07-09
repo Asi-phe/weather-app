@@ -1,5 +1,6 @@
-function displayUserOutput(){
+function displayUserOutput() {
     var tempereture = document.getElementById("temp").value;
+    console.log(tempereture);
 //Adding a tempreture to be a variable.
 
 //Tempreture is greater or equal to 30 degree.
@@ -21,7 +22,7 @@ function displayUserOutput(){
 }
 
 }
-const appKey = "f24f40b1c24505685fce3b8acd0fcffc";
+/*const appKey = "f24f40b1c24 505685fce3b8acd0fcffc";
 
 let searchButton = document.getElementById("search-btn");
 let searchInput = document.getElementById("search-txt");
@@ -66,4 +67,4 @@ function httpRequestAsync(url, callback)
     }
     httpRequest.open("GET", url, true); // true for asynchronous 
     httpRequest.send();
-}
+} */
